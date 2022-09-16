@@ -19,8 +19,8 @@
   "license": "MIT",
   "scripts": {
     "win-dev": "set NODE_ENV=development&&nodemon src/index",
-    "dev": "NODE_ENV=development node server.js",
-    "start": "NODE_ENV=production node server.js"
+    "dev": "NODE_ENV=development node src/index",
+    "start": "NODE_ENV=production node src/index.js"
   },
   "nodemonConfig": {
     "ignore": [
