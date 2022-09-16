@@ -18,9 +18,9 @@
   "author": "M Pedia <ilmansunannudin2@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "win-dev": "set NODE_ENV=development&&nodemon src/server",
-    "dev": "NODE_ENV=development node src/server",
-    "start": "NODE_ENV=production node src/server"
+    "win-dev": "set NODE_ENV=development&&nodemon server",
+    "dev": "NODE_ENV=development node server",
+    "start": "NODE_ENV=production node server"
   },
   "nodemonConfig": {
     "ignore": [
