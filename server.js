@@ -1,4 +1,6 @@
 'use strict'
+var distDir = __dirname + "/dist/";
+ app.use(express.static(distDir));
 
 const fs = require('fs')
 const wa = require('./server/router/model/whatsapp')
