@@ -10,6 +10,7 @@ global.log = lib.log
 /**
  * EXPRESS FOR ROUTING
  */
+app.use(express.static(__dirname + '/')); 
 const express = require('express')
 const app = express()
 const http = require('http')
