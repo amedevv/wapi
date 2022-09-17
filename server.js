@@ -10,7 +10,6 @@ global.log = lib.log
 /**
  * EXPRESS FOR ROUTING
  */
-app.use(express.static(__dirname + '/')); 
 const express = require('express')
 const app = express()
 const http = require('http')
@@ -21,7 +20,7 @@ const server = http.createServer(app)
  */
 const {Server} = require('socket.io');
 const io = new Server(server)
-const port = process.env.PORT || 3000
+const port = process.env.PORT_NODE
 // const io = require('socket.io')(server, {
 //     cors: {
 //         origin: process.env.ORIGIN
